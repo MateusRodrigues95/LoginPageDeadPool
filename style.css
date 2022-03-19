@@ -1,0 +1,11 @@
+body {
+    height: 100%;
+    width: 100%;
+    background: rgb(19,23,27);
+background: linear-gradient(90deg, rgba(19,23,27,1) 0%, rgba(32,37,44,1) 45%, rgba(52,51,57,1) 100%);
+}
+
+img {
+margin-top: 20%;
+margin-left: 20%;
+}
