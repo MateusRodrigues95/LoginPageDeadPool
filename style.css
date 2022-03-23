@@ -1,11 +1,25 @@
 body {
-    height: 100%;
-    width: 100%;
     background: rgb(52,51,57);
     background: radial-gradient(circle, rgba(52,51,57,1) 0%, rgba(36,37,42,1) 36%, rgba(19,23,27,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 img {
-margin-top: 20%;
-margin-left: 20%;
+    
+    width: 300px;
+}
+
+input{
+    width: 300px;
+}
+
+#inputpassword {
+    margin: 50px;
+}
+
+button{
+    margin-top: 10px;
+
 }
