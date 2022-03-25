@@ -13,9 +13,10 @@ margin-top: 12%;
 }
 
 input{
+    
     border-color: black;
-    background-color: dimgray;
-    color: darkred;
+    background-color: rgb(185, 179, 179);
+    color: rgb(66, 2, 2);
     border-radius: 8px;
     width: 300px;
 }
