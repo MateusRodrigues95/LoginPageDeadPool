@@ -7,18 +7,18 @@ body {
 }
 
 img {
-    margin-left: 35px;
+    margin-left: 51px;
 margin-top: 12%;
     width: 300px;
 }
 
 input{
     
-    border-color: black;
+    border-color: rgb(172, 12, 12);
     background-color: rgb(185, 179, 179);
     color: rgb(66, 2, 2);
     border-radius: 8px;
-    width: 300px;
+    width: 239px;
 }
 
 .inputsenha {  
@@ -26,8 +26,10 @@ input{
 }
 
 button{
-    background-color: dimgray;
+    border-color: darkred;
+    background-color: rgb(201, 196, 196);
     color: darkred;
     margin-top: 10px;
+    border-radius: 5px;
 
 }
