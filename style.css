@@ -7,19 +7,26 @@ body {
 }
 
 img {
-    
+    margin-left: 35px;
+margin-top: 12%;
     width: 300px;
 }
 
 input{
+    border-color: black;
+    background-color: dimgray;
+    color: darkred;
+    border-radius: 8px;
     width: 300px;
 }
 
-.inputsenha {
-    margin-top: 50px;
+.inputsenha {  
+    margin-top: 10px;
 }
 
 button{
+    background-color: dimgray;
+    color: darkred;
     margin-top: 10px;
 
 }
