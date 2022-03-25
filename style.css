@@ -15,8 +15,8 @@ input{
     width: 300px;
 }
 
-#inputpassword {
-    margin: 50px;
+.inputsenha {
+    margin-top: 50px;
 }
 
 button{
