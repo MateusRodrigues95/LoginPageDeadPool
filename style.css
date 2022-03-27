@@ -10,14 +10,14 @@ body {
 
 img {
     margin-left: 51px;
-margin-top: 12%;
+    margin-top: 12%;
     width: 300px;
 }
 
 input{
     height: 25px;
-    border-color: rgb(172, 12, 12);
-    background-color: rgb(185, 179, 179);
+    border-color: #f2f2f2;
+    background-color: #f8f8f8;
     color: rgb(66, 2, 2);
     border-radius: 8px;
     width: 239px;
@@ -28,24 +28,28 @@ input{
 }
 
 button{
+    font-family:  Franklin Gothic ;
     width: 239px;
     height: 30px;
-    border-color: darkred;
     background-color: rgb(182, 174, 174);
     color: darkred;
     border-radius: 8px;
-
 }
 .ButtonLogin{
-    border-color: black;
+    border: none;
     color: #f2f2f2;
-    background-color: darkred;
-margin-top: 20px;
+    background-color: #3c0707;
+    background-image: linear-gradient(147deg, #3c0707 0%, #c40c10 37%, #5b1308 100%);
+    margin-top: 20px;
 }
 
 .ButtonCriarConta{
+    background-color: #c4c2c2;
+    background-image: linear-gradient(147deg, #c4c2c2 0%, #474444 37%, #240a08 100%);
+    color: #f2f2f2;
+    border: none;
     margin-top: 10px;
-    width: 210px;
+    width: 100px;
 }
 
 @-webkit-keyframes gradient{
