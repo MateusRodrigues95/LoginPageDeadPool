@@ -14,11 +14,13 @@ img {
     width: 300px;
 }
 
+
+
 input{
+    border-color: none;
     height: 25px;
     background-color: background-color: #b6a7a7;
     background-image: linear-gradient(147deg, #b6a7a7 6%, #706664 52%, #b6a7a7 94%);
-    ;
     color: rgb(66, 2, 2);
     border-radius: 8px;
     width: 239px;
@@ -36,12 +38,20 @@ button{
     color: darkred;
     border-radius: 8px;
 }
+
 .ButtonLogin{
     border: none;
     color: #f2f2f2;
     background-color: #3c0707;
     background-image: linear-gradient(147deg, #3c0707 0%, #c40c10 37%, #5b1308 100%);
     margin-top: 20px;
+    transition: 0.4s;
+}
+.ButtonLogin:hover{
+    width: 242px;
+    background-color: #680404;
+    background-image: linear-gradient(147deg, #680404 6%, #7f2308 52%, #b6a7a7 94%);
+    cursor:pointer;
 }
 
 .ButtonCriarConta{
@@ -50,7 +60,8 @@ button{
     color: #f2f2f2;
     border: none;
     margin-top: 10px;
-    width: 100px;
+    width: 150px;
+
 }
 
 @-webkit-keyframes gradient{
