@@ -16,8 +16,9 @@ img {
 
 input{
     height: 25px;
-    border-color: #f2f2f2;
-    background-color: #f8f8f8;
+    background-color: background-color: #b6a7a7;
+    background-image: linear-gradient(147deg, #b6a7a7 6%, #706664 52%, #b6a7a7 94%);
+    ;
     color: rgb(66, 2, 2);
     border-radius: 8px;
     width: 239px;
