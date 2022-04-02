@@ -49,8 +49,10 @@ button{
 }
 .ButtonLogin:hover{
     width: 242px;
-    background-color: #680404;
-    background-image: linear-gradient(147deg, #680404 6%, #7f2308 52%, #b6a7a7 94%);
+    background-color: #000000;
+background-image: linear-gradient(43deg, #000000 0%, #bd2929 46%, #050000 100%);
+
+
     cursor:pointer;
 }
 
@@ -61,6 +63,7 @@ button{
     border: none;
     margin-top: 10px;
     width: 150px;
+    cursor: pointer;
 
 }
 
