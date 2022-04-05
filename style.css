@@ -77,6 +77,19 @@ background-image: linear-gradient(90deg, #050505 0%, #978989 50%, #605252 100%);
 
 }
 
+h1 {
+font-style: normal;
+font-size: small;
+margin-top: 30px;
+color: #f8f8f879;
+}
+
+a {
+color: #b61c1fa8;
+text-decoration: none;
+
+}
+
 
 @-webkit-keyframes gradient{
     0%{
