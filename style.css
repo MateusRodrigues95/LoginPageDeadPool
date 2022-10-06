@@ -1,11 +1,11 @@
 body {
-    
-    background: radial-gradient(circle, rgba(52,51,57,1) 0%, rgba(36,37,42,1) 36%, rgba(19,23,27,1) 100%);
+    background-image: url('assets/dp2.jpg');
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: gradient 15s ease infinite;
-    background-size: 400% 400%;
+    background-size: cover ;
+    background-repeat: no-repeat;
+
 }
 
 img {
@@ -69,11 +69,7 @@ background-image: linear-gradient(43deg, #000000 0%, #bd2929 46%, #050000 100%);
 .ButtonCriarConta:hover {
     background-color: #050505;
 background-image: linear-gradient(90deg, #050505 0%, #978989 50%, #605252 100%);
-
-    
     cursor: pointer;    
-
-
 }
 
 h1 {
@@ -84,31 +80,31 @@ color: #f8f8f879;
 }
 
 a {
-color: #b61c1fa8;
+color: #e6070ba8;
 text-decoration: none;
+}
+
+ul {
+
+list-style: none;
+color: #f8f8f8;
+padding: 0%;
+align-items: flex-start;
+width: 100%;
+}
+
+li {
+    display: inline;
+    margin-left: 20px;
 
 }
 
-
-@-webkit-keyframes gradient{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
-}
-@keyframes gradient{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
+#modal{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181818d7;
+    border-radius: 10px;
+    box-shadow: #464545a8;
 }
