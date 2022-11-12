@@ -84,13 +84,14 @@ color: #e6070ba8;
 text-decoration: none;
 }
 
-ul {
+ #menu{
 
 list-style: none;
 color: #f8f8f8;
 padding: 0%;
 align-items: flex-start;
 width: 100%;
+
 }
 
 li {
