@@ -1,0 +1,17 @@
+ body{
+    background-color: black;
+
+
+
+ }
+
+ul { 
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+}

@@ -9,10 +9,13 @@
 
 
 <body>
-        <ul>   
-                <li>HOME</li>
+        <ul>  
+                <li> <a href="#"> HOME</a></li>
+        
                 <li>FOTOS</li>
-                <li>CONTATOS</li>  
+                
+                <li>CONTATOS</li>
+                    
         </ul>
         
        <div id="modal">
@@ -20,18 +23,24 @@
         <img src="assets/DeadPool.png" alt="">
         <input type="text" class="inputemail"  placeholder="Email">
         <input type="password" class="inputsenha"  placeholder="Senha">
-        <button onclick="alerta()" class="ButtonLogin"> Acesse sua conta </button>
+        <button onclick="mylogin()" class="ButtonLogin"> Acesse sua conta
+        
+        </button>
         <button class="ButtonCriarConta"> Criar Conta </button>
-        <h1> não consegue acessar sua conta? <a href=""> clique aqui </a> </h1>
+        <h1> não consegue acessar sua conta? <a id="cliqueaqui" href=""> clique aqui </a> </h1>
         
        </div>
     
 
     <script>
     function alerta() {
-        alert("Desculpe, aqui só entram Anti-Heróis.") 
+        alert("Desculpe, aqui só entram Anti-Heróis.")
+        
     }
+    function mylogin() {
+        window.location.href="index2.html"
 
+    }
     </script>
 </body>
 
