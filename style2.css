@@ -11,7 +11,17 @@ ul {
     display: flex;
     justify-content: space-between;
 
+}
+
+img{
+    width: 600px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+  }
 
 
-
+h2{
+   color: aliceblue;
 }
