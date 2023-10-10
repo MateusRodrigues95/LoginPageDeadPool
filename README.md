@@ -1,6 +1,6 @@
-# Archon-vis (my bachelor's degree final project)
+# LoginPageDeadPool (my first project)
 
-## Abstract:
+## Abstract: (prefácio)
 
 Due to its large applicability, web services have been gaining more popularity. This means that more hierarchical data are generated with hierarchical, mainly in JSON or XML formatted files. However, many users still use tabular files, such as Excel spreadsheets and CSV files. Without a specific tool, visualizing and understanding fully the hierarchy surrounding the data becomes a hard task, sometimes requiring programming skills. In order to support the users leading with hierarchical data in tabular format, in this work, we present a web-based tool that allows users to load, manipulate and understand hierarchical data from tabular data. The tool was developed using web technologies and data visualization principles to represent hierarchical data through a radial tree. The tool and its functionalities are demonstrated through a case study of skin cancer images, where users can investigate different hierarchies, manipulate and export data in JSON format or keep them as tabular data.
 
@@ -15,7 +15,7 @@ This project aims to meet the following requirements related to the problem to b
 * Requirement 4: The application must allow exporting the modified data in .csv or .json formats;
 * Requisito 5: Data must be represented in a visual way, making it easier to understand the data hierarchy.
 
-### Built With
+### Built With (construido com:)
 
 This section should list any major frameworks/libraries used to bootstrap this project. 
 * [JavaScript](https://www.javascript.com/)
@@ -24,13 +24,13 @@ This section should list any major frameworks/libraries used to bootstrap this p
 * [D3.js](https://d3js.org/)
 * [JQuery](https://jquery.com/)
 
-### the Data sample
+### What i learned
 
-The data we used as sample are obtained from the International Skin Imaging Collaboration (ISIC, 2021). The set used is a subset of dermoscopic images of skin lesions constituted for 232 items, a small amount but enough to simulate an image library built by a doctor from his patients. [Check it out](https://github.com/gabrieldasneves/Archon-viz/blob/main/data/lesions.csv)
+The data we used as sample are obtained from the International Skin Imaging Collaboration (ISIC, 2021). The set used is a subset of dermoscopic images of skin lesions constituted for 232 items, a small amount but enough to simulate an image library built by a doctor from his patients. [Check it out]()
 
 ### Interface
 
-![](https://github.com/gabrieldasneves/Archon-viz/blob/main/media/derm1.PNG?raw=true)
+![](https://github.com/MateusRodrigues95/LoginPageDeadPool/blob/main/assets/Screenshot%202023-05-19%20at%2012-58-36%20Deadpool%20Do%20Amor.png?raw=true)
 
 ## Auxiliary buttons
 
